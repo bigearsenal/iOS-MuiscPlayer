@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCAF17FB158BAC7200FB8DAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCAF17FA158BAC7200FB8DAD /* UIKit.framework */; };
+		FCAF17FD158BAC7200FB8DAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCAF17FC158BAC7200FB8DAD /* Foundation.framework */; };
+		FCAF17FF158BAC7200FB8DAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCAF17FE158BAC7200FB8DAD /* CoreGraphics.framework */; };
+		FCAF1805158BAC7200FB8DAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCAF1803158BAC7200FB8DAD /* InfoPlist.strings */; };
+		FCAF1807158BAC7200FB8DAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAF1806158BAC7200FB8DAD /* main.m */; };
+		FCAF180B158BAC7200FB8DAD /* MusicPlayerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAF180A158BAC7200FB8DAD /* MusicPlayerAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FCAF17F6158BAC7200FB8DAD /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCAF17FA158BAC7200FB8DAD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FCAF17FC158BAC7200FB8DAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FCAF17FE158BAC7200FB8DAD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FCAF1802158BAC7200FB8DAD /* MusicPlayer-Info.plist */ = {isa = PBXFileReference; path = "MusicPlayer-Info.plist"; sourceTree = "<group>"; };
+		FCAF1804158BAC7200FB8DAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCAF1806158BAC7200FB8DAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCAF1808158BAC7200FB8DAD /* MusicPlayer-Prefix.pch */ = {isa = PBXFileReference; path = "MusicPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		FCAF1809158BAC7200FB8DAD /* MusicPlayerAppDelegate.h */ = {isa = PBXFileReference; path = MusicPlayerAppDelegate.h; sourceTree = "<group>"; };
+		FCAF180A158BAC7200FB8DAD /* MusicPlayerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCAF17F3158BAC7200FB8DAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAF17FB158BAC7200FB8DAD /* UIKit.framework in Frameworks */,
+				FCAF17FD158BAC7200FB8DAD /* Foundation.framework in Frameworks */,
+				FCAF17FF158BAC7200FB8DAD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCAF17EB158BAC7200FB8DAD = {
+			isa = PBXGroup;
+			children = (
+				FCAF1800158BAC7200FB8DAD /* MusicPlayer */,
+				FCAF17F9158BAC7200FB8DAD /* Frameworks */,
+				FCAF17F7158BAC7200FB8DAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCAF17F7158BAC7200FB8DAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCAF17F6158BAC7200FB8DAD /* MusicPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCAF17F9158BAC7200FB8DAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCAF17FA158BAC7200FB8DAD /* UIKit.framework */,
+				FCAF17FC158BAC7200FB8DAD /* Foundation.framework */,
+				FCAF17FE158BAC7200FB8DAD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCAF1800158BAC7200FB8DAD /* MusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				FCAF1809158BAC7200FB8DAD /* MusicPlayerAppDelegate.h */,
+				FCAF180A158BAC7200FB8DAD /* MusicPlayerAppDelegate.m */,
+				FCAF1801158BAC7200FB8DAD /* Supporting Files */,
+			);
+			path = MusicPlayer;
+			sourceTree = "<group>";
+		};
+		FCAF1801158BAC7200FB8DAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCAF1802158BAC7200FB8DAD /* MusicPlayer-Info.plist */,
+				FCAF1803158BAC7200FB8DAD /* InfoPlist.strings */,
+				FCAF1806158BAC7200FB8DAD /* main.m */,
+				FCAF1808158BAC7200FB8DAD /* MusicPlayer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCAF17F5158BAC7200FB8DAD /* MusicPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCAF180E158BAC7200FB8DAD /* Build configuration list for PBXNativeTarget "MusicPlayer" */;
+			buildPhases = (
+				FCAF17F2158BAC7200FB8DAD /* Sources */,
+				FCAF17F3158BAC7200FB8DAD /* Frameworks */,
+				FCAF17F4158BAC7200FB8DAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicPlayer;
+			productName = MusicPlayer;
+			productReference = FCAF17F6158BAC7200FB8DAD /* MusicPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCAF17ED158BAC7200FB8DAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MusicPlayer;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = FCAF17F0158BAC7200FB8DAD /* Build configuration list for PBXProject "MusicPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FCAF17EB158BAC7200FB8DAD;
+			productRefGroup = FCAF17F7158BAC7200FB8DAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCAF17F5158BAC7200FB8DAD /* MusicPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCAF17F4158BAC7200FB8DAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAF1805158BAC7200FB8DAD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCAF17F2158BAC7200FB8DAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAF1807158BAC7200FB8DAD /* main.m in Sources */,
+				FCAF180B158BAC7200FB8DAD /* MusicPlayerAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCAF1803158BAC7200FB8DAD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCAF1804158BAC7200FB8DAD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCAF180C158BAC7200FB8DAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FCAF180D158BAC7200FB8DAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCAF180F158BAC7200FB8DAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicPlayer/MusicPlayer-Prefix.pch";
+				INFOPLIST_FILE = "MusicPlayer/MusicPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FCAF1810158BAC7200FB8DAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicPlayer/MusicPlayer-Prefix.pch";
+				INFOPLIST_FILE = "MusicPlayer/MusicPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCAF17F0158BAC7200FB8DAD /* Build configuration list for PBXProject "MusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCAF180C158BAC7200FB8DAD /* Debug */,
+				FCAF180D158BAC7200FB8DAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCAF180E158BAC7200FB8DAD /* Build configuration list for PBXNativeTarget "MusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCAF180F158BAC7200FB8DAD /* Debug */,
+				FCAF1810158BAC7200FB8DAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCAF17ED158BAC7200FB8DAD /* Project object */;
+}
