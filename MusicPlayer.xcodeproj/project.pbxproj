@@ -13,6 +13,7 @@
 		FCAF1805158BAC7200FB8DAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCAF1803158BAC7200FB8DAD /* InfoPlist.strings */; };
 		FCAF1807158BAC7200FB8DAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAF1806158BAC7200FB8DAD /* main.m */; };
 		FCAF180B158BAC7200FB8DAD /* MusicPlayerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAF180A158BAC7200FB8DAD /* MusicPlayerAppDelegate.m */; };
+		FCAF1825158BB74A00FB8DAD /* SongsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAF1824158BB74A00FB8DAD /* SongsListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,14 @@
 		FCAF17FA158BAC7200FB8DAD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FCAF17FC158BAC7200FB8DAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FCAF17FE158BAC7200FB8DAD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		FCAF1802158BAC7200FB8DAD /* MusicPlayer-Info.plist */ = {isa = PBXFileReference; path = "MusicPlayer-Info.plist"; sourceTree = "<group>"; };
+		FCAF1802158BAC7200FB8DAD /* MusicPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MusicPlayer-Info.plist"; sourceTree = "<group>"; };
 		FCAF1804158BAC7200FB8DAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FCAF1806158BAC7200FB8DAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FCAF1808158BAC7200FB8DAD /* MusicPlayer-Prefix.pch */ = {isa = PBXFileReference; path = "MusicPlayer-Prefix.pch"; sourceTree = "<group>"; };
-		FCAF1809158BAC7200FB8DAD /* MusicPlayerAppDelegate.h */ = {isa = PBXFileReference; path = MusicPlayerAppDelegate.h; sourceTree = "<group>"; };
+		FCAF1808158BAC7200FB8DAD /* MusicPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MusicPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		FCAF1809158BAC7200FB8DAD /* MusicPlayerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicPlayerAppDelegate.h; sourceTree = "<group>"; };
 		FCAF180A158BAC7200FB8DAD /* MusicPlayerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerAppDelegate.m; sourceTree = "<group>"; };
+		FCAF1823158BB74A00FB8DAD /* SongsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongsListViewController.h; sourceTree = "<group>"; };
+		FCAF1824158BB74A00FB8DAD /* SongsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongsListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +48,8 @@
 		FCAF17EB158BAC7200FB8DAD = {
 			isa = PBXGroup;
 			children = (
+				FCAF1823158BB74A00FB8DAD /* SongsListViewController.h */,
+				FCAF1824158BB74A00FB8DAD /* SongsListViewController.m */,
 				FCAF1800158BAC7200FB8DAD /* MusicPlayer */,
 				FCAF17F9158BAC7200FB8DAD /* Frameworks */,
 				FCAF17F7158BAC7200FB8DAD /* Products */,
@@ -154,6 +159,7 @@
 			files = (
 				FCAF1807158BAC7200FB8DAD /* main.m in Sources */,
 				FCAF180B158BAC7200FB8DAD /* MusicPlayerAppDelegate.m in Sources */,
+				FCAF1825158BB74A00FB8DAD /* SongsListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

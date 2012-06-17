@@ -7,6 +7,7 @@
 //
 
 #import "MusicPlayerAppDelegate.h"
+#import "SongsListViewController.h"
 
 @implementation MusicPlayerAppDelegate
 
@@ -15,8 +16,15 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+    UITabBarController * uiTabBarController = [[UITabBarController alloc] init];
+
+    SongsListViewController * songsListViewController = [[SongsListViewController alloc] init];
+
+
+    [uiTabBarController addChildViewController:songsListViewController];
+
     self.window.backgroundColor = [UIColor whiteColor];
+    [self.window setRootViewController: uiTabBarController];
     [self.window makeKeyAndVisible];
     return YES;
 }
