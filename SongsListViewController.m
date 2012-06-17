@@ -7,6 +7,7 @@
 //
 
 #import "SongsListViewController.h"
+#import "SongListTableViewCell.h"
 
 @interface SongsListViewController ()
 
@@ -35,7 +36,7 @@
         NSLog(@"Finished editing Playlists");
         editButton.title = @"Edit";
         [self setEditing:false animated:true];
-    }else{
+     }else{
         NSLog(@"Editing Playlists");
         editButton.title = @"Done";
         [self setEditing:true animated:true];
@@ -62,6 +63,33 @@
 {
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    NSLog(@"Called with section: %d", section);
+    return 5;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    NSLog(@"Called with row: %d", indexPath.row);
+    static NSString * identifier = @"SongItem";
+    UITableViewCell * reusableCell=  (SongListTableViewCell *) [tableView dequeueReusableCellWithIdentifier:identifier];
+    if (!reusableCell){
+        NSLog(@"No reusable cell found");
+        reusableCell = [[SongListTableViewCell alloc] init];
+    }
+
+    reusableCell.textLabel.text = @"Primary Title Key";
+    reusableCell.detailTextLabel.text = @"Secondary Title Key";
+    reusableCell.imageView.image = [UIImage imageNamed:@"error_icon.png"];
+
+    return reusableCell;
+}
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 1;
+}
+
+
 
 
 @end

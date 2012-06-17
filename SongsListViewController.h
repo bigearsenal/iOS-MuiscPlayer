@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SongsListViewController : UITableViewController
+@interface SongsListViewController : UITableViewController <UITableViewDataSource, UITableViewDelegate>
 {
     BOOL isEditing;
     UIBarButtonItem * editButton;
