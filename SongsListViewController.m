@@ -21,14 +21,6 @@
     self = [super initWithStyle:style];
     if (self) {
         isEditing = false;
-        [[self tableView] setContentInset:UIEdgeInsetsMake(44.0, 0, 0, 0)];
-        UINavigationBar * uiNavigationBar = [[UINavigationBar alloc] initWithFrame:CGRectMake(0.0f, -44, 320.0f, 44.0f)];
-        [uiNavigationBar setTintColor:[UIColor blackColor]];
-        UINavigationItem * item = [[UINavigationItem alloc] initWithTitle:@"Playlists"];
-//        editButton = [[UIBarButtonItem alloc] initWithTitle:@"Edit" style:UIBarButtonItemStyleDone target:nil action:@selector(editPlaylists:)];
-//        [item setLeftBarButtonItem:editButton];
-        [uiNavigationBar pushNavigationItem:item animated:NO];
-        [[self tableView] addSubview:uiNavigationBar];
         [[self tableView] setRowHeight:75.0];
 
         [[self tableView] setBackgroundView:nil];

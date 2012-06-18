@@ -19,13 +19,17 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     UITabBarController * uiTabBarController = [[UITabBarController alloc] init];
 
+
     SongsListViewController * songsListViewController = [[SongsListViewController alloc] init];
-    songsListViewController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Playlists" image:[UIImage imageNamed:@"playlists.png"] tag:0];
+    UINavigationController * songsListNavController = [[UINavigationController alloc] initWithRootViewController:songsListViewController];
+    songsListNavController.navigationBar.tintColor = [UIColor blackColor];
+    [songsListNavController.navigationBar.topItem setTitle:@"Playlists"];
+    songsListNavController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Playlists" image:[UIImage imageNamed:@"playlists.png"] tag:0];
 
     SettingsViewController * settingsViewController = [[SettingsViewController alloc] init];
     settingsViewController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Settings" image:[UIImage imageNamed:@"settings.png"] tag:1];
 
-    [uiTabBarController addChildViewController:songsListViewController];
+    [uiTabBarController addChildViewController:songsListNavController];
     [uiTabBarController addChildViewController:settingsViewController];
 
     self.window.backgroundColor = [UIColor whiteColor];

@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80a781de-3967-4a01-ab68-0758adba48d1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cellBackground.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cellBackgroundActive.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicPlayer.xcodeproj/project.xcworkspace/xcuserdata/dsuratna.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/MusicPlayer.xcodeproj/project.xcworkspace/xcuserdata/dsuratna.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicPlayer.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/MusicPlayer.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SongListViewCell.xib" afterPath="$PROJECT_DIR$/SongListViewCell.xib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicPlayer/MusicPlayerAppDelegate.m" afterPath="$PROJECT_DIR$/MusicPlayer/MusicPlayerAppDelegate.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SongsListViewController.m" afterPath="$PROJECT_DIR$/SongsListViewController.m" />
     </list>
     <ignored path="MusicPlayer.iws" />
@@ -59,10 +56,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SongsListViewController.m" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SongsListViewController.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SongsListViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="153" selection-start="3805" selection-end="3805" vertical-scroll-proportion="0.47826087">
+            <state line="22" column="26" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#161#196#0" expanded="true" />
               </folding>
@@ -79,10 +76,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MusicPlayerAppDelegate.m" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MusicPlayerAppDelegate.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MusicPlayer/MusicPlayerAppDelegate.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="30" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.0">
+            <state line="41" column="88" selection-start="1758" selection-end="1758" vertical-scroll-proportion="0.90604025">
               <folding />
             </state>
           </provider>
@@ -101,7 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/MusicPlayer/MusicPlayerAppDelegate.m" />
         <option value="$PROJECT_DIR$/SettingsViewController.m" />
         <option value="$PROJECT_DIR$/SongListTableViewCellCell.m" />
         <option value="$PROJECT_DIR$/SongListTableViewCellCell.h" />
@@ -109,6 +105,7 @@
         <option value="$PROJECT_DIR$/SongListTableViewCell.m" />
         <option value="$PROJECT_DIR$/SongsListViewController.h" />
         <option value="$PROJECT_DIR$/SongsListViewController.m" />
+        <option value="$PROJECT_DIR$/MusicPlayer/MusicPlayerAppDelegate.m" />
       </list>
     </option>
   </component>
@@ -281,13 +278,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MusicPlayer/MusicPlayerAppDelegate.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="30" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SettingsViewController.m">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="57" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.0">
@@ -320,10 +310,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SongsListViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="153" selection-start="3805" selection-end="3805" vertical-scroll-proportion="0.47826087">
+        <state line="22" column="26" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#161#196#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusicPlayer/MusicPlayerAppDelegate.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="88" selection-start="1758" selection-end="1758" vertical-scroll-proportion="0.90604025">
+          <folding />
         </state>
       </provider>
     </entry>
