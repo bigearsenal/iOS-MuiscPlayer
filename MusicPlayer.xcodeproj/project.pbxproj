@@ -21,6 +21,8 @@
 		FCAF183A158E691500FB8DAD /* SongListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCAF1839158E691500FB8DAD /* SongListViewCell.xib */; };
 		FCAF183D158E6B8500FB8DAD /* error_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAF183C158E6B8500FB8DAD /* error_icon.png */; };
 		FCAF183D158E6B8500FB8DAF /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCAF183D158E6B8500FB8DAE /* MediaPlayer.framework */; };
+		FCDE3323158ED19B0085EE6B /* cellBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDE3322158ED19B0085EE6B /* cellBackground.png */; };
+		FCDE3323158ED19B0085EE6D /* cellBackgroundActive.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDE3323158ED19B0085EE6C /* cellBackgroundActive.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,8 @@
 		FCAF1839158E691500FB8DAD /* SongListViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SongListViewCell.xib; sourceTree = "<group>"; };
 		FCAF183C158E6B8500FB8DAD /* error_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error_icon.png; sourceTree = "<group>"; };
 		FCAF183D158E6B8500FB8DAE /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		FCDE3322158ED19B0085EE6B /* cellBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cellBackground.png; sourceTree = "<group>"; };
+		FCDE3323158ED19B0085EE6C /* cellBackgroundActive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cellBackgroundActive.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,8 @@
 		FCAF17EB158BAC7200FB8DAD = {
 			isa = PBXGroup;
 			children = (
+				FCDE3323158ED19B0085EE6C /* cellBackgroundActive.png */,
+				FCDE3322158ED19B0085EE6B /* cellBackground.png */,
 				FCAF183C158E6B8500FB8DAD /* error_icon.png */,
 				FCAF1839158E691500FB8DAD /* SongListViewCell.xib */,
 				FCAF182F158DAAE700FB8DAD /* SettingsViewController.h */,
@@ -177,6 +183,8 @@
 				FCAF182E158DA89700FB8DAD /* settings.png in Resources */,
 				FCAF183A158E691500FB8DAD /* SongListViewCell.xib in Resources */,
 				FCAF183D158E6B8500FB8DAD /* error_icon.png in Resources */,
+				FCDE3323158ED19B0085EE6B /* cellBackground.png in Resources */,
+				FCDE3323158ED19B0085EE6D /* cellBackgroundActive.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

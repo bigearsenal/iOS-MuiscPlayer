@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80a781de-3967-4a01-ab68-0758adba48d1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cellBackground.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cellBackgroundActive.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicPlayer.xcodeproj/project.xcworkspace/xcuserdata/dsuratna.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/MusicPlayer.xcodeproj/project.xcworkspace/xcuserdata/dsuratna.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicPlayer.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/MusicPlayer.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SongListViewCell.xib" afterPath="$PROJECT_DIR$/SongListViewCell.xib" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SongsListViewController.h" afterPath="$PROJECT_DIR$/SongsListViewController.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SongsListViewController.m" afterPath="$PROJECT_DIR$/SongsListViewController.m" />
     </list>
     <ignored path="MusicPlayer.iws" />
@@ -61,7 +62,7 @@
       <file leaf-file-name="SongsListViewController.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SongsListViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="121" selection-start="1331" selection-end="1331" vertical-scroll-proportion="0.57608694">
+            <state line="109" column="153" selection-start="3805" selection-end="3805" vertical-scroll-proportion="0.47826087">
               <folding>
                 <element signature="e#161#196#0" expanded="true" />
               </folding>
@@ -170,6 +171,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="recentsLimit" value="5" />
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="" />
     <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="RunManager" selected="Application.MusicPlayer">
@@ -286,16 +288,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SongListTableViewCell.h">
+    <entry file="file://$PROJECT_DIR$/SettingsViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="11" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
+        <state line="47" column="57" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SettingsViewController.m">
+    <entry file="file://$PROJECT_DIR$/SongListTableViewCell.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="57" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.0">
+        <state line="10" column="11" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -318,7 +320,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SongsListViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="121" selection-start="1331" selection-end="1331" vertical-scroll-proportion="0.57608694">
+        <state line="109" column="153" selection-start="3805" selection-end="3805" vertical-scroll-proportion="0.47826087">
           <folding>
             <element signature="e#161#196#0" expanded="true" />
           </folding>

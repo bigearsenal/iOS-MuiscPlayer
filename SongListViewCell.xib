@@ -195,10 +195,11 @@ AAgACAAIAAEAAQABAAE</bytes>
 				<string key="NSReuseIdentifierKey">_NS:9</string>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">1</int>
-					<bytes key="NSRGB">MCAwIDAAA</bytes>
+					<bytes key="NSRGB">MCAwIDAgMAA</bytes>
 				</object>
+				<float key="IBUIAlpha">0.0</float>
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-				<int key="IBUISelectionStyle">0</int>
+				<int key="IBUISelectionStyle">2</int>
 				<reference key="IBUIContentView" ref="522288955"/>
 				<string key="IBUIReuseIdentifier">SongCell</string>
 				<real value="70" key="IBUIRowHeight"/>
