@@ -20,6 +20,7 @@
 		FCAF1834158E5DD300FB8DAD /* SongListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAF1833158E5DD300FB8DAD /* SongListTableViewCell.m */; };
 		FCAF183A158E691500FB8DAD /* SongListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCAF1839158E691500FB8DAD /* SongListViewCell.xib */; };
 		FCAF183D158E6B8500FB8DAD /* error_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAF183C158E6B8500FB8DAD /* error_icon.png */; };
+		FCAF183D158E6B8500FB8DAF /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCAF183D158E6B8500FB8DAE /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		FCAF1833158E5DD300FB8DAD /* SongListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongListTableViewCell.m; sourceTree = "<group>"; };
 		FCAF1839158E691500FB8DAD /* SongListViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SongListViewCell.xib; sourceTree = "<group>"; };
 		FCAF183C158E6B8500FB8DAD /* error_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error_icon.png; sourceTree = "<group>"; };
+		FCAF183D158E6B8500FB8DAE /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 				FCAF17FB158BAC7200FB8DAD /* UIKit.framework in Frameworks */,
 				FCAF17FD158BAC7200FB8DAD /* Foundation.framework in Frameworks */,
 				FCAF17FF158BAC7200FB8DAD /* CoreGraphics.framework in Frameworks */,
+				FCAF183D158E6B8500FB8DAF /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +92,7 @@
 		FCAF17F9158BAC7200FB8DAD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FCAF183D158E6B8500FB8DAE /* MediaPlayer.framework */,
 				FCAF17FA158BAC7200FB8DAD /* UIKit.framework */,
 				FCAF17FC158BAC7200FB8DAD /* Foundation.framework */,
 				FCAF17FE158BAC7200FB8DAD /* CoreGraphics.framework */,

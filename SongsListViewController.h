@@ -12,6 +12,8 @@
 {
     BOOL isEditing;
     UIBarButtonItem * editButton;
+    NSArray * songs;
+    IBOutlet UITableViewCell * songCell;
 }
 
 - (IBAction) editPlaylists: (id) sender;
