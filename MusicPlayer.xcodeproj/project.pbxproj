@@ -23,6 +23,8 @@
 		FCAF183D158E6B8500FB8DAF /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCAF183D158E6B8500FB8DAE /* MediaPlayer.framework */; };
 		FCDE3323158ED19B0085EE6B /* cellBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDE3322158ED19B0085EE6B /* cellBackground.png */; };
 		FCDE3323158ED19B0085EE6D /* cellBackgroundActive.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDE3323158ED19B0085EE6C /* cellBackgroundActive.png */; };
+		FCDE332F159054BA0085EE6B /* MusicPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDE332D159054BA0085EE6B /* MusicPlayerViewController.m */; };
+		FCDE3330159054BA0085EE6B /* MusicPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCDE332E159054BA0085EE6B /* MusicPlayerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,9 @@
 		FCAF183D158E6B8500FB8DAE /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		FCDE3322158ED19B0085EE6B /* cellBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cellBackground.png; sourceTree = "<group>"; };
 		FCDE3323158ED19B0085EE6C /* cellBackgroundActive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cellBackgroundActive.png; sourceTree = "<group>"; };
+		FCDE332C159054BA0085EE6B /* MusicPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayerViewController.h; sourceTree = "<group>"; };
+		FCDE332D159054BA0085EE6B /* MusicPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerViewController.m; sourceTree = "<group>"; };
+		FCDE332E159054BA0085EE6B /* MusicPlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicPlayerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +74,9 @@
 		FCAF17EB158BAC7200FB8DAD = {
 			isa = PBXGroup;
 			children = (
+				FCDE332C159054BA0085EE6B /* MusicPlayerViewController.h */,
+				FCDE332D159054BA0085EE6B /* MusicPlayerViewController.m */,
+				FCDE332E159054BA0085EE6B /* MusicPlayerViewController.xib */,
 				FCDE3323158ED19B0085EE6C /* cellBackgroundActive.png */,
 				FCDE3322158ED19B0085EE6B /* cellBackground.png */,
 				FCAF183C158E6B8500FB8DAD /* error_icon.png */,
@@ -185,6 +193,7 @@
 				FCAF183D158E6B8500FB8DAD /* error_icon.png in Resources */,
 				FCDE3323158ED19B0085EE6B /* cellBackground.png in Resources */,
 				FCDE3323158ED19B0085EE6D /* cellBackgroundActive.png in Resources */,
+				FCDE3330159054BA0085EE6B /* MusicPlayerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +209,7 @@
 				FCAF1825158BB74A00FB8DAD /* SongsListViewController.m in Sources */,
 				FCAF1831158DAAE700FB8DAD /* SettingsViewController.m in Sources */,
 				FCAF1834158E5DD300FB8DAD /* SongListTableViewCell.m in Sources */,
+				FCDE332F159054BA0085EE6B /* MusicPlayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

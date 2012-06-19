@@ -8,8 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
+@class MusicPlayerViewController;
+@class MPMediaItem;
+
 @interface MusicPlayerAppDelegate : UIResponder <UIApplicationDelegate>
+{
+    MusicPlayerViewController * musicPlayerViewController;
+    UITabBarController * uiTabBarController;
+}
 
 @property (strong, nonatomic) UIWindow *window;
+
+- (void) playSong:(NSUInteger *) songPosition;
+- (void) hideMusicPlayer;
 
 @end

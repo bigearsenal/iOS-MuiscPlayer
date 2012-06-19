@@ -44,12 +44,11 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell * tableViewCell = [[UITableViewCell alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 320.0f, 44.0f)];
-    tableView.backgroundColor = [UIColor grayColor];
     return tableViewCell;
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 2;
+    return 1;
 }
 
 

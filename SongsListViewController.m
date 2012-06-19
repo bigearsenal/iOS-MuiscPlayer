@@ -8,6 +8,8 @@
 
 #import "SongsListViewController.h"
 #import "SongListTableViewCell.h"
+#import "MusicPlayerViewController.h"
+#import "MusicPlayerAppDelegate.h"
 #import <MediaPlayer/MediaPlayer.h>
 
 @interface SongsListViewController ()
@@ -88,10 +90,14 @@
     reusableCell.backgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"cellBackground.png"]];
     reusableCell.selectedBackgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"cellBackgroundActive.png"]];
 
+    UIImageView * albumImageView = (UIImageView *)[reusableCell viewWithTag:0];
+
     UILabel * songTitleLabel = (UILabel *)[reusableCell viewWithTag:1];
     UILabel * artistLabel = (UILabel *)[reusableCell viewWithTag:2];
 
     MPMediaItem * song = [songs objectAtIndex:[indexPath row]];
+    UIImage * albumImage = [[song valueForProperty:MPMediaItemPropertyArtwork] imageWithSize:CGSizeMake(40, 40)];
+    [albumImageView setImage:albumImage];
     songTitleLabel.text = [song valueForProperty:MPMediaItemPropertyTitle];
     artistLabel.text = [song valueForProperty:MPMediaItemPropertyArtist];
 
@@ -100,6 +106,9 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSLog(@"Song at position %d is selected. Title: %@", indexPath.row, [[songs objectAtIndex:indexPath.row] valueForProperty:MPMediaItemPropertyTitle]);
+    MusicPlayerAppDelegate * appDelegate = (MusicPlayerAppDelegate *) [[UIApplication sharedApplication] delegate];
+    [appDelegate playSong:[indexPath row]];
+
 }
 
 
