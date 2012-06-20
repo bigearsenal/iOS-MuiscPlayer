@@ -53,7 +53,11 @@
     NSLog(@"Playing Song at Position %d", position);
     NSLog(@"Song is %@", [query.items objectAtIndex:position]);
 
+    MPMediaItem * song = (MPMediaItem *) [query.items objectAtIndex:position];
     [musicPlayer stop];
+    artistLabel.text = [song valueForProperty:MPMediaItemPropertyAlbumArtist];
+    songLabel.text = [song valueForProperty:MPMediaItemPropertyTitle];
+
     [musicPlayer setNowPlayingItem: [query.items objectAtIndex:position]];
     [musicPlayer setCurrentPlaybackTime:0];
     [musicPlayer play];
