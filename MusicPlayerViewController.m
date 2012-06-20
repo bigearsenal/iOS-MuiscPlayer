@@ -33,6 +33,12 @@
     // Do any additional setup after loading the view from its nib.
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [controlBar setFrame:CGRectMake(0, 372, 320, 88)];
+    [super viewWillAppear:animated];
+}
+
+
 - (void)viewDidUnload
 {
     [super viewDidUnload];
@@ -57,6 +63,9 @@
     [musicPlayer stop];
     artistLabel.text = [song valueForProperty:MPMediaItemPropertyAlbumArtist];
     songLabel.text = [song valueForProperty:MPMediaItemPropertyTitle];
+    UIImage * albumImage = [[song valueForProperty:MPMediaItemPropertyArtwork] imageWithSize:CGSizeMake(320, 372)];
+    [albumImageView setImage:albumImage];
+
 
     [musicPlayer setNowPlayingItem: [query.items objectAtIndex:position]];
     [musicPlayer setCurrentPlaybackTime:0];

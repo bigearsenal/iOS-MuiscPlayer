@@ -14,7 +14,7 @@
     IBOutlet UILabel * artistLabel;
     IBOutlet UILabel * songLabel;
     IBOutlet UIBarButtonItem * hideButton;
-    IBOutlet UIImageView * albumImage;
+    IBOutlet UIImageView * albumImageView;
     IBOutlet UIToolbar * controlBar;
 
     NSUInteger * songPosition;

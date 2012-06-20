@@ -4,7 +4,9 @@
     <list default="true" id="80a781de-3967-4a01-ab68-0758adba48d1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicPlayer.xcodeproj/project.xcworkspace/xcuserdata/dsuratna.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/MusicPlayer.xcodeproj/project.xcworkspace/xcuserdata/dsuratna.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicPlayerViewController.h" afterPath="$PROJECT_DIR$/MusicPlayerViewController.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicPlayerViewController.m" afterPath="$PROJECT_DIR$/MusicPlayerViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicPlayerViewController.xib" afterPath="$PROJECT_DIR$/MusicPlayerViewController.xib" />
     </list>
     <ignored path="MusicPlayer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,7 +60,7 @@
       <file leaf-file-name="SongsListViewController.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SongsListViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="24" selection-start="3593" selection-end="3593" vertical-scroll-proportion="0.0">
+            <state line="92" column="18" selection-start="2601" selection-end="2601" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -67,7 +69,7 @@
       <file leaf-file-name="MusicPlayerViewController.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MusicPlayerViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="68" selection-start="1708" selection-end="1708" vertical-scroll-proportion="0.7424893">
+            <state line="21" column="41" selection-start="522" selection-end="522" vertical-scroll-proportion="0.17167382">
               <folding />
             </state>
           </provider>
@@ -76,7 +78,7 @@
       <file leaf-file-name="MusicPlayerViewController.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MusicPlayerViewController.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="8" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0">
+            <state line="16" column="41" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -85,7 +87,7 @@
       <file leaf-file-name="MusicPlayerAppDelegate.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MusicPlayer/MusicPlayerAppDelegate.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0">
+            <state line="16" column="44" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -119,12 +121,12 @@
         <option value="$PROJECT_DIR$/SongListTableViewCell.m" />
         <option value="$PROJECT_DIR$/SongsListViewController.h" />
         <option value="$PROJECT_DIR$/SettingsViewController.m" />
-        <option value="$PROJECT_DIR$/MusicPlayerViewController.h" />
         <option value="$PROJECT_DIR$/ContainerViewController.m" />
-        <option value="$PROJECT_DIR$/MusicPlayer/MusicPlayerAppDelegate.h" />
         <option value="$PROJECT_DIR$/ContainerViewController.h" />
         <option value="$PROJECT_DIR$/MusicPlayer/MusicPlayerAppDelegate.m" />
         <option value="$PROJECT_DIR$/SongsListViewController.m" />
+        <option value="$PROJECT_DIR$/MusicPlayer/MusicPlayerAppDelegate.h" />
+        <option value="$PROJECT_DIR$/MusicPlayerViewController.h" />
         <option value="$PROJECT_DIR$/MusicPlayerViewController.m" />
       </list>
     </option>
@@ -322,13 +324,6 @@
         <state line="8" column="48" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MusicPlayer/MusicPlayerAppDelegate.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SongsListViewController.h">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="40" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0" />
@@ -344,13 +339,6 @@
         <state line="15" column="8" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SongsListViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="24" selection-start="3593" selection-end="3593" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MusicPlayer/MusicPlayerAppDelegate.m">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="35" selection-start="2251" selection-end="2251" vertical-scroll-proportion="0.0">
@@ -358,16 +346,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MusicPlayer/MusicPlayerAppDelegate.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="44" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SongsListViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="18" selection-start="2601" selection-end="2601" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MusicPlayerViewController.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="8" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0">
+        <state line="16" column="41" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MusicPlayerViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="68" selection-start="1708" selection-end="1708" vertical-scroll-proportion="0.7424893">
+        <state line="21" column="41" selection-start="522" selection-end="522" vertical-scroll-proportion="0.17167382">
           <folding />
         </state>
       </provider>
