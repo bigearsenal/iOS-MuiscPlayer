@@ -63,8 +63,10 @@
     [musicPlayer stop];
     artistLabel.text = [song valueForProperty:MPMediaItemPropertyAlbumArtist];
     songLabel.text = [song valueForProperty:MPMediaItemPropertyTitle];
-    UIImage * albumImage = [[song valueForProperty:MPMediaItemPropertyArtwork] imageWithSize:CGSizeMake(320, 372)];
-    [albumImageView setImage:albumImage];
+    UIImage * albumImage = [[song valueForProperty:MPMediaItemPropertyArtwork] imageWithSize:CGSizeMake(320, 328)];
+    if(albumImage){
+        [albumImageView setImage:albumImage];
+    }
 
 
     [musicPlayer setNowPlayingItem: [query.items objectAtIndex:position]];

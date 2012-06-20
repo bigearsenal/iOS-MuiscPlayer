@@ -4,9 +4,7 @@
     <list default="true" id="80a781de-3967-4a01-ab68-0758adba48d1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicPlayer.xcodeproj/project.xcworkspace/xcuserdata/dsuratna.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/MusicPlayer.xcodeproj/project.xcworkspace/xcuserdata/dsuratna.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicPlayerViewController.h" afterPath="$PROJECT_DIR$/MusicPlayerViewController.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicPlayerViewController.m" afterPath="$PROJECT_DIR$/MusicPlayerViewController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicPlayerViewController.xib" afterPath="$PROJECT_DIR$/MusicPlayerViewController.xib" />
     </list>
     <ignored path="MusicPlayer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,10 +64,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MusicPlayerViewController.m" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MusicPlayerViewController.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MusicPlayerViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="41" selection-start="522" selection-end="522" vertical-scroll-proportion="0.17167382">
+            <state line="61" column="4" selection-start="1598" selection-end="1598" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -93,10 +91,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MusicPlayerAppDelegate.m" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MusicPlayerAppDelegate.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MusicPlayer/MusicPlayerAppDelegate.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="35" selection-start="2251" selection-end="2251" vertical-scroll-proportion="0.0">
+            <state line="26" column="73" selection-start="911" selection-end="911" vertical-scroll-proportion="0.3004292">
               <folding />
             </state>
           </provider>
@@ -339,13 +337,6 @@
         <state line="15" column="8" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MusicPlayer/MusicPlayerAppDelegate.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="35" selection-start="2251" selection-end="2251" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MusicPlayer/MusicPlayerAppDelegate.h">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="44" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
@@ -369,7 +360,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MusicPlayerViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="41" selection-start="522" selection-end="522" vertical-scroll-proportion="0.17167382">
+        <state line="61" column="4" selection-start="1598" selection-end="1598" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusicPlayer/MusicPlayerAppDelegate.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="73" selection-start="911" selection-end="911" vertical-scroll-proportion="0.3004292">
           <folding />
         </state>
       </provider>
