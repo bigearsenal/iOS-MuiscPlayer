@@ -21,14 +21,20 @@
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
+    NSLog(@"InitWithStyle SongsListViewController");
     if (self) {
         isEditing = false;
         [[self tableView] setRowHeight:75.0];
-
         [[self tableView] setBackgroundView:nil];
-
         MPMediaQuery * allSongsQuery = [[MPMediaQuery alloc] init];
         songs = [allSongsQuery items];
+        NSLog(@"Pre-initialization of musicPlayerViewController");
+        musicPlayerViewController = [[MusicPlayerViewController alloc] init];
+        NSLog(@"There are %d songs", [songs count]);
+        NSLog(@"There are %d songs", [songs count]);
+
+        [musicPlayerViewController setQuery:allSongsQuery];
+
         NSLog(@"There are %d songs", [songs count]);
     }
     return self;
@@ -106,9 +112,8 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSLog(@"Song at position %d is selected. Title: %@", indexPath.row, [[songs objectAtIndex:indexPath.row] valueForProperty:MPMediaItemPropertyTitle]);
-    MusicPlayerAppDelegate * appDelegate = (MusicPlayerAppDelegate *) [[UIApplication sharedApplication] delegate];
-    [appDelegate playSong:[indexPath row]];
-
+    [musicPlayerViewController play:indexPath.row];
+    [self presentModalViewController:musicPlayerViewController animated:YES];
 }
 
 

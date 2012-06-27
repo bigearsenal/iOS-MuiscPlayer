@@ -19,11 +19,10 @@
 
     NSUInteger songPosition;
     MPMusicPlayerController* musicPlayer;
-    MPMediaQuery * query;
-
 }
 
 @property (nonatomic) NSUInteger songPosition;
+@property (nonatomic, strong) MPMediaQuery * query;
 
 - (IBAction) hideWindow: (id) sender;
 - (void)play:(NSUInteger) position;

@@ -19,9 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    uiTabBarController = [[UITabBarController alloc] init];
-
-    musicPlayerViewController = [[MusicPlayerViewController alloc] init];
+    UITabBarController * uiTabBarController = [[UITabBarController alloc] init];
 
     SongsListViewController * songsListViewController = [[SongsListViewController alloc] init];
     UINavigationController * songsListNavController = [[UINavigationController alloc] initWithRootViewController:songsListViewController];
@@ -43,17 +41,4 @@
     [self.window makeKeyAndVisible];
     return YES;
 }
-
-- (void) playSong:(NSUInteger) songPosition
-{
-    [self.window setRootViewController:musicPlayerViewController];
-    [musicPlayerViewController play: (NSUInteger) songPosition];
-}
-
-- (void) hideMusicPlayer
-{
-    [self.window setRootViewController:uiTabBarController];
-}
-
-
 @end
