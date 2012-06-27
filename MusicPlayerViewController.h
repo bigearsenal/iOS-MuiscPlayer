@@ -17,15 +17,15 @@
     IBOutlet UIImageView * albumImageView;
     IBOutlet UIToolbar * controlBar;
 
-    NSUInteger * songPosition;
+    NSUInteger songPosition;
     MPMusicPlayerController* musicPlayer;
     MPMediaQuery * query;
 
 }
 
-@property (nonatomic) NSUInteger * songPosition;
+@property (nonatomic) NSUInteger songPosition;
 
 - (IBAction) hideWindow: (id) sender;
-- (void)play:(NSUInteger *) position;
+- (void)play:(NSUInteger) position;
 
 @end

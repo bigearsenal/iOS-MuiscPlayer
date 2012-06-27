@@ -19,7 +19,7 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-- (void) playSong:(NSUInteger *) songPosition;
+- (void) playSong:(NSUInteger) songPosition;
 - (void) hideMusicPlayer;
 
 @end

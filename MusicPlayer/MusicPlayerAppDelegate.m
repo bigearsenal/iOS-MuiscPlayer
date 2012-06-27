@@ -44,10 +44,10 @@
     return YES;
 }
 
-- (void) playSong:(NSUInteger *) songPosition
+- (void) playSong:(NSUInteger) songPosition
 {
     [self.window setRootViewController:musicPlayerViewController];
-    [musicPlayerViewController play: (NSUInteger *) songPosition];
+    [musicPlayerViewController play: (NSUInteger) songPosition];
 }
 
 - (void) hideMusicPlayer

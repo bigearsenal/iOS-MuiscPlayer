@@ -55,7 +55,7 @@
     [((MusicPlayerAppDelegate *) [[UIApplication sharedApplication] delegate]) hideMusicPlayer];
 }
 
-- (void)play:(NSUInteger *) position  {
+- (void)play:(NSUInteger) position  {
     NSLog(@"Playing Song at Position %d", position);
     NSLog(@"Song is %@", [query.items objectAtIndex:position]);
 
