@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80a781de-3967-4a01-ab68-0758adba48d1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicPlayer.xcodeproj/project.xcworkspace/xcuserdata/dsuratna.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/MusicPlayer.xcodeproj/project.xcworkspace/xcuserdata/dsuratna.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicPlayer/MusicPlayerAppDelegate.h" afterPath="$PROJECT_DIR$/MusicPlayer/MusicPlayerAppDelegate.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicPlayer/MusicPlayerAppDelegate.m" afterPath="$PROJECT_DIR$/MusicPlayer/MusicPlayerAppDelegate.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicPlayerViewController.h" afterPath="$PROJECT_DIR$/MusicPlayerViewController.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicPlayerViewController.m" afterPath="$PROJECT_DIR$/MusicPlayerViewController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SongsListViewController.h" afterPath="$PROJECT_DIR$/SongsListViewController.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SongsListViewController.m" afterPath="$PROJECT_DIR$/SongsListViewController.m" />
-    </list>
+    <list default="true" id="80a781de-3967-4a01-ab68-0758adba48d1" name="Default" comment="" />
     <ignored path="MusicPlayer.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
