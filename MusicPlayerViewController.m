@@ -17,14 +17,10 @@
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
-    NSLog(@"NibName: %@",nibNameOrNil);
-    NSLog(@"NibBundle: %@",nibBundleOrNil);
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         musicPlayer = [MPMusicPlayerController applicationMusicPlayer];
     }
-    NSLog(@"Song label %@", songLabel);
-    NSLog(@"Artist label %@", artistLabel);
     return self;
 }
 
@@ -64,6 +60,8 @@
 
 - (IBAction)hideWindow:(id)sender {
     NSLog(@"Hiding Window");
+    [musicPlayer stop];
+    [self dismissModalViewControllerAnimated:YES];
 }
 
 - (void)play:(NSUInteger) position  {
