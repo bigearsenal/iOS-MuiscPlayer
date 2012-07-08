@@ -13,9 +13,11 @@
 {
     IBOutlet UILabel * artistLabel;
     IBOutlet UILabel * songLabel;
+    IBOutlet UILabel * timePast;
     IBOutlet UIBarButtonItem * hideButton;
     IBOutlet UIImageView * albumImageView;
     IBOutlet UIToolbar * controlBar;
+    IBOutlet UISlider * songSlider;
 
     NSUInteger songPosition;
     MPMusicPlayerController* musicPlayer;

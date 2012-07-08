@@ -33,6 +33,10 @@
 {
     [controlBar setFrame:CGRectMake(0, 372, 320, 88)];
     MPMediaItem * song = (MPMediaItem *) [query.items objectAtIndex:songPosition];
+
+    NSNumber * duration = [song valueForProperty:MPMediaItemPropertyPlaybackDuration];
+    [songSlider setMaximumValue:duration.floatValue];
+    [songSlider setMinimumValue:0.0];
     artistLabel.text = [song valueForProperty:MPMediaItemPropertyAlbumArtist];
     songLabel.text = [song valueForProperty:MPMediaItemPropertyTitle];
     UIImage * albumImage = [[song valueForProperty:MPMediaItemPropertyArtwork] imageWithSize:CGSizeMake(320, 328)];
@@ -64,6 +68,15 @@
     [self dismissModalViewControllerAnimated:YES];
 }
 
+- (void) updateTime: (id) sender
+{
+    NSInteger newValue = (NSInteger) ([songSlider value] + 1);
+    [songSlider setValue:newValue animated:YES];
+    NSInteger minutes = newValue / 60;
+    NSInteger seconds = newValue % 60;
+    [timePast setText:[NSString stringWithFormat:@"%d:%d", minutes, seconds]];
+}
+
 - (void)play:(NSUInteger) position  {
     NSLog(@"Playing Song at Position %d", position);
     NSLog(@"Song is %@", [query.items objectAtIndex:position]);
@@ -72,10 +85,13 @@
     MPMediaItem * song = (MPMediaItem *) [query.items objectAtIndex:position];
     [musicPlayer stop];
     [musicPlayer setNowPlayingItem: [query.items objectAtIndex:position]];
+
     [musicPlayer setCurrentPlaybackTime:0];
+    [songSlider setValue:0];
+
+    [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(updateTime:) userInfo:nil repeats:YES];
+
     [musicPlayer play];
 }
-
-
 
 @end

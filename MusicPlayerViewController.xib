@@ -10111,6 +10111,22 @@ AAEAAQABA</bytes>
 					<int key="connectionID">28</int>
 				</object>
 				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">songSlider</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="963259107"/>
+					</object>
+					<int key="connectionID">34</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">timePast</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="729128192"/>
+					</object>
+					<int key="connectionID">35</int>
+				</object>
+				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">hideWindow:</string>
 						<reference key="source" ref="215461489"/>
@@ -10226,7 +10242,7 @@ AAEAAQABA</bytes>
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">33</int>
+			<int key="maxID">35</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -10250,6 +10266,8 @@ AAEAAQABA</bytes>
 						<string key="controlBar">UIToolbar</string>
 						<string key="hideButton">UIBarButtonItem</string>
 						<string key="songLabel">UILabel</string>
+						<string key="songSlider">UISlider</string>
+						<string key="timePast">UILabel</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
 						<object class="IBToOneOutletInfo" key="albumImageView">
@@ -10270,6 +10288,14 @@ AAEAAQABA</bytes>
 						</object>
 						<object class="IBToOneOutletInfo" key="songLabel">
 							<string key="name">songLabel</string>
+							<string key="candidateClassName">UILabel</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="songSlider">
+							<string key="name">songSlider</string>
+							<string key="candidateClassName">UISlider</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="timePast">
+							<string key="name">timePast</string>
 							<string key="candidateClassName">UILabel</string>
 						</object>
 					</dictionary>
