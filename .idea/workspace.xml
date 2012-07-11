@@ -4,7 +4,6 @@
     <list default="true" id="80a781de-3967-4a01-ab68-0758adba48d1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicPlayer.xcodeproj/project.xcworkspace/xcuserdata/dsuratna.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/MusicPlayer.xcodeproj/project.xcworkspace/xcuserdata/dsuratna.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicPlayerViewController.h" afterPath="$PROJECT_DIR$/MusicPlayerViewController.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicPlayerViewController.m" afterPath="$PROJECT_DIR$/MusicPlayerViewController.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicPlayerViewController.xib" afterPath="$PROJECT_DIR$/MusicPlayerViewController.xib" />
     </list>
@@ -67,7 +66,7 @@
       <file leaf-file-name="MusicPlayerViewController.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MusicPlayerViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="53" selection-start="2262" selection-end="2262" vertical-scroll-proportion="0.25751072">
+            <state line="66" column="28" selection-start="1895" selection-end="1895" vertical-scroll-proportion="0.42060086">
               <folding />
             </state>
           </provider>
@@ -380,7 +379,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MusicPlayerViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="53" selection-start="2262" selection-end="2262" vertical-scroll-proportion="0.25751072">
+        <state line="66" column="28" selection-start="1895" selection-end="1895" vertical-scroll-proportion="0.42060086">
           <folding />
         </state>
       </provider>

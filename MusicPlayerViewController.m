@@ -65,7 +65,6 @@
 
 - (IBAction)hideWindow:(id)sender {
     NSLog(@"Hiding Window");
-    [musicPlayer stop];
     [self dismissModalViewControllerAnimated:YES];
 }
 
@@ -82,6 +81,10 @@
     if (position < 0){
         NSLog(@"Right here!");
         position += [query.items count];
+    }
+    if(position >= [query.items count])
+    {
+        position -= [query.items count];
     }
     songPosition = position;
     NSLog(@"Playing Song at Position %d", position);
@@ -111,6 +114,12 @@
     [musicPlayer setCurrentPlaybackTime:0];
 }
 
+- (IBAction)forward:(id)sender {
+    songPosition += 1;
+    [self playFromBeginning:(songPosition)];
+    [self updateModalViewAssets];
+}
+
 - (IBAction) doubleBack:(id) sender{
     songPosition -= 1;
     [self playFromBeginning:(songPosition)];
@@ -129,10 +138,6 @@
     }else{
         [albumImageView setImage:nil];
     }
-}
-
-- (IBAction)forward:(id)sender {
-
 }
 
 
