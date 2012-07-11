@@ -20,6 +20,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         musicPlayer = [MPMusicPlayerController applicationMusicPlayer];
+        [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(updateTime:) userInfo:nil repeats:YES];
     }
     return self;
 }
@@ -70,17 +71,17 @@
 
 - (void) updateTime: (id) sender
 {
-    NSInteger newValue = (NSInteger) ([songSlider value] + 1);
+    NSInteger newValue = (NSInteger) [musicPlayer currentPlaybackTime] ;
     [songSlider setValue:newValue animated:YES];
     NSInteger minutes = newValue / 60;
     NSInteger seconds = newValue % 60;
     [timePast setText:[NSString stringWithFormat:@"%d:%d", minutes, seconds]];
 }
 
-- (void)play:(NSUInteger) position  {
+- (void)playFromBeginning:(NSUInteger) position  {
     NSLog(@"Playing Song at Position %d", position);
     NSLog(@"Song is %@", [query.items objectAtIndex:position]);
-
+    isPlaying = true;
     songPosition = position;
     MPMediaItem * song = (MPMediaItem *) [query.items objectAtIndex:position];
     [musicPlayer stop];
@@ -89,9 +90,26 @@
     [musicPlayer setCurrentPlaybackTime:0];
     [songSlider setValue:0];
 
-    [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(updateTime:) userInfo:nil repeats:YES];
-
     [musicPlayer play];
 }
+
+- (IBAction)play:(id) sender{
+    if (isPlaying){
+        [musicPlayer pause];
+    }else{
+        [musicPlayer play];
+    }
+    isPlaying = !isPlaying;
+}
+
+
+- (IBAction)back:(id)sender {
+
+}
+
+- (IBAction)forward:(id)sender {
+
+}
+
 
 @end

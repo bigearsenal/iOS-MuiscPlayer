@@ -18,7 +18,11 @@
     IBOutlet UIImageView * albumImageView;
     IBOutlet UIToolbar * controlBar;
     IBOutlet UISlider * songSlider;
+    IBOutlet UIButton * playButton;
+    IBOutlet UIButton * forwardButton;
+    IBOutlet UIButton * backButton;
 
+    BOOL isPlaying;
     NSUInteger songPosition;
     MPMusicPlayerController* musicPlayer;
 }
@@ -27,6 +31,10 @@
 @property (nonatomic, strong) MPMediaQuery * query;
 
 - (IBAction) hideWindow: (id) sender;
-- (void)play:(NSUInteger) position;
+- (IBAction) play: (id) sender;
+- (IBAction) back: (id) sender;
+- (IBAction) forward: (id) sender;
+
+- (void)playFromBeginning:(NSUInteger) position;
 
 @end

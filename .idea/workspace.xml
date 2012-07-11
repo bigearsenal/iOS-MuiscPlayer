@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80a781de-3967-4a01-ab68-0758adba48d1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backward.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forward.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pause.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/play.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicPlayer.xcodeproj/project.xcworkspace/xcuserdata/dsuratna.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/MusicPlayer.xcodeproj/project.xcworkspace/xcuserdata/dsuratna.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicPlayer.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/MusicPlayer.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicPlayerViewController.h" afterPath="$PROJECT_DIR$/MusicPlayerViewController.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicPlayerViewController.m" afterPath="$PROJECT_DIR$/MusicPlayerViewController.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicPlayerViewController.xib" afterPath="$PROJECT_DIR$/MusicPlayerViewController.xib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SongsListViewController.m" afterPath="$PROJECT_DIR$/SongsListViewController.m" />
     </list>
     <ignored path="MusicPlayer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,7 +73,7 @@
       <file leaf-file-name="MusicPlayerViewController.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MusicPlayerViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="84" selection-start="2680" selection-end="2680" vertical-scroll-proportion="0.80686694">
+            <state line="97" column="28" selection-start="2868" selection-end="2868" vertical-scroll-proportion="0.8497854">
               <folding />
             </state>
           </provider>
@@ -85,7 +91,7 @@
       <file leaf-file-name="MusicPlayerViewController.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MusicPlayerViewController.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="32" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
+            <state line="24" column="9" selection-start="665" selection-end="674" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -188,12 +194,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Application.MusicPlayer">
     <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PROJECT_NAME="MusicPlayer" TARGET_NAME="MusicPlayer" CONFIG_NAME="Debug" DESTINATION_ID="iphonesimulator_5.1_1" RUN_TARGET_PROJECT_NAME="MusicPlayer" RUN_TARGET_NAME="MusicPlayer" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
@@ -248,6 +254,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292011" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982357" sideWeight="0.6707989" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -258,7 +265,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292011" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292011" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -337,6 +343,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SettingsViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="32" selection-start="678" selection-end="678" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SongsListViewController.m">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="75" selection-start="954" selection-end="954" vertical-scroll-proportion="0.0" />
@@ -359,21 +372,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MusicPlayerViewController.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="32" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SettingsViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="32" selection-start="678" selection-end="678" vertical-scroll-proportion="0.0">
+        <state line="24" column="9" selection-start="665" selection-end="674" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MusicPlayerViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="84" selection-start="2680" selection-end="2680" vertical-scroll-proportion="0.80686694">
+        <state line="97" column="28" selection-start="2868" selection-end="2868" vertical-scroll-proportion="0.8497854">
           <folding />
         </state>
       </provider>

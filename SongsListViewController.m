@@ -112,7 +112,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSLog(@"Song at position %d is selected. Title: %@", indexPath.row, [[songs objectAtIndex:indexPath.row] valueForProperty:MPMediaItemPropertyTitle]);
-    [musicPlayerViewController play:indexPath.row];
+    [musicPlayerViewController playFromBeginning:indexPath.row];
     [self presentModalViewController:musicPlayerViewController animated:YES];
 }
 
