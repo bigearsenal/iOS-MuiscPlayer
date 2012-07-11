@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80a781de-3967-4a01-ab68-0758adba48d1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backward.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forward.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pause.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/play.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicPlayer.xcodeproj/project.xcworkspace/xcuserdata/dsuratna.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/MusicPlayer.xcodeproj/project.xcworkspace/xcuserdata/dsuratna.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicPlayer.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/MusicPlayer.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicPlayerViewController.h" afterPath="$PROJECT_DIR$/MusicPlayerViewController.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicPlayerViewController.m" afterPath="$PROJECT_DIR$/MusicPlayerViewController.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicPlayerViewController.xib" afterPath="$PROJECT_DIR$/MusicPlayerViewController.xib" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SongsListViewController.m" afterPath="$PROJECT_DIR$/SongsListViewController.m" />
     </list>
     <ignored path="MusicPlayer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,7 +67,7 @@
       <file leaf-file-name="MusicPlayerViewController.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MusicPlayerViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="28" selection-start="2868" selection-end="2868" vertical-scroll-proportion="0.8497854">
+            <state line="77" column="53" selection-start="2262" selection-end="2262" vertical-scroll-proportion="0.25751072">
               <folding />
             </state>
           </provider>
@@ -91,7 +85,7 @@
       <file leaf-file-name="MusicPlayerViewController.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MusicPlayerViewController.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="9" selection-start="665" selection-end="674" vertical-scroll-proportion="0.0">
+            <state line="29" column="24" selection-start="773" selection-end="773" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -370,16 +364,23 @@
         <state line="18" column="57" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="309" column="17" selection-start="13167" selection-end="13167" vertical-scroll-proportion="0.52915454">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MusicPlayerViewController.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="9" selection-start="665" selection-end="674" vertical-scroll-proportion="0.0">
+        <state line="29" column="24" selection-start="773" selection-end="773" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MusicPlayerViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="28" selection-start="2868" selection-end="2868" vertical-scroll-proportion="0.8497854">
+        <state line="77" column="53" selection-start="2262" selection-end="2262" vertical-scroll-proportion="0.25751072">
           <folding />
         </state>
       </provider>

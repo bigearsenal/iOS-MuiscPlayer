@@ -23,11 +23,11 @@
     IBOutlet UIButton * backButton;
 
     BOOL isPlaying;
-    NSUInteger songPosition;
+    NSInteger songPosition;
     MPMusicPlayerController* musicPlayer;
 }
 
-@property (nonatomic) NSUInteger songPosition;
+@property (nonatomic) NSInteger songPosition;
 @property (nonatomic, strong) MPMediaQuery * query;
 
 - (IBAction) hideWindow: (id) sender;
@@ -35,6 +35,6 @@
 - (IBAction) back: (id) sender;
 - (IBAction) forward: (id) sender;
 
-- (void)playFromBeginning:(NSUInteger) position;
+- (void)playFromBeginning:(NSInteger) position;
 
 @end

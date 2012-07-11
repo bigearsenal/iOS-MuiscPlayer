@@ -75,28 +75,32 @@
     [songSlider setValue:newValue animated:YES];
     NSInteger minutes = newValue / 60;
     NSInteger seconds = newValue % 60;
-    [timePast setText:[NSString stringWithFormat:@"%d:%d", minutes, seconds]];
+    [timePast setText:[NSString stringWithFormat:@"%02d:%02d", minutes, seconds]];
 }
 
-- (void)playFromBeginning:(NSUInteger) position  {
+- (void)playFromBeginning:(NSInteger) position  {
+    if (position < 0){
+        NSLog(@"Right here!");
+        position += [query.items count];
+    }
+    songPosition = position;
     NSLog(@"Playing Song at Position %d", position);
     NSLog(@"Song is %@", [query.items objectAtIndex:position]);
+    [playButton setImage:[UIImage imageNamed:@"pause.png"] forState:UIControlStateNormal];
     isPlaying = true;
-    songPosition = position;
-    MPMediaItem * song = (MPMediaItem *) [query.items objectAtIndex:position];
     [musicPlayer stop];
     [musicPlayer setNowPlayingItem: [query.items objectAtIndex:position]];
-
     [musicPlayer setCurrentPlaybackTime:0];
-    [songSlider setValue:0];
 
     [musicPlayer play];
 }
 
 - (IBAction)play:(id) sender{
     if (isPlaying){
+        [playButton setImage:[UIImage imageNamed:@"play.png"] forState:UIControlStateNormal];
         [musicPlayer pause];
     }else{
+        [playButton setImage:[UIImage imageNamed:@"pause.png"] forState:UIControlStateNormal];
         [musicPlayer play];
     }
     isPlaying = !isPlaying;
@@ -104,7 +108,27 @@
 
 
 - (IBAction)back:(id)sender {
+    [musicPlayer setCurrentPlaybackTime:0];
+}
 
+- (IBAction) doubleBack:(id) sender{
+    songPosition -= 1;
+    [self playFromBeginning:(songPosition)];
+    [self updateModalViewAssets];
+}
+
+- (void) updateModalViewAssets
+{
+    MPMediaItem * song = (MPMediaItem *) [query.items objectAtIndex:songPosition];
+    artistLabel.text = [song valueForProperty:MPMediaItemPropertyAlbumArtist];
+    songLabel.text = [song valueForProperty:MPMediaItemPropertyTitle];
+    UIImage * albumImage = [[song valueForProperty:MPMediaItemPropertyArtwork] imageWithSize:CGSizeMake(320, 328)];
+
+    if(albumImage){
+        [albumImageView setImage:albumImage];
+    }else{
+        [albumImageView setImage:nil];
+    }
 }
 
 - (IBAction)forward:(id)sender {
